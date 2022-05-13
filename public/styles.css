@@ -1,0 +1,20 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header section */
+
+.header-section {
+    background-color: rgb(202, 67, 67);
+    height: 100vh;
+    padding: 5% 15%;
+}
+
+.heading-text {
+    width: 50%;
+}
