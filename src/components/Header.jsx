@@ -1,6 +1,7 @@
 import React from "react";
 import AppleIcon from "@mui/icons-material/Apple";
 import SvgIcon from "@mui/material/SvgIcon";
+import { HashLink as Link } from "react-router-hash-link";
 
 function GooglePlayIcon(props) {
   return (
@@ -34,19 +35,13 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item me-4">
-                <a className="nav-link " href="/contact">
-                  <h6>Contact</h6>
-                </a>
+                <Link smooth to="#footerSection" className="nav-link">Contact</Link>
               </li>
               <li className="nav-item me-4">
-                <a className="nav-link" href="/pricing">
-                  <h6>Pricing</h6>
-                </a>
+                <Link smooth to="#pricingSection" className="nav-link">Pricing</Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" href="/download">
-                  <h6>Download</h6>
-                </a>
+                <Link smooth to="#downloadSection" className="nav-link">Download</Link>
               </li>
             </ul>
           </div>
@@ -69,7 +64,7 @@ function Header() {
           <img
             className="titleImg"
             src={require("../assets/images/iphone6.png")}
-            alt="iphone image"
+            alt="iphone"
           />
         </div>
       </div>

@@ -7,7 +7,8 @@ import { grey } from "@mui/material/colors";
 
 export default function Contact() {
     const year = new Date().getFullYear();
-    return (<div className="container-fluid" id="footer">
+    return (
+    <div className="container-fluid" id="footerSection">
     <a href="https://www.instagram.com/" target={"/"}><InstagramIcon fontSize="small" sx={{color:grey[900]}} /></a>
     <a href="https://www.facebook.com/" target={"/"}><FacebookIcon fontSize="small" sx={{color:grey[900]}}/></a>
     <a href="https://mail.google.com/" target={"/"}><EmailIcon fontSize="small" sx={{color:grey[900]}}/></a>

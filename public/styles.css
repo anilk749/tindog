@@ -122,16 +122,16 @@ p {
 
 
 /* Footer Section */
-#footer {
+#footerSection {
     background-color: #FBE5E5;
     padding: 8% 15%;
 }
 
-#footer p {
+#footerSection p {
     color: grey;
 }
 
-#footer a {
+#footerSection a {
     margin: 10px 20px 20px 0px;
     padding-bottom: 20px;
 }
