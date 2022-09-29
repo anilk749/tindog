@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/tindog/static/js/main.de896de3.js",
+    "static/media/iphone6.png": "/tindog/static/media/iphone6.124c43879471b6178749.png",
+    "static/media/lady-img.jpg": "/tindog/static/media/lady-img.8ee2d8f8e7a0264be864.jpg",
+    "static/media/tnw.png": "/tindog/static/media/tnw.df4383d7da108661153d.png",
+    "static/media/dog-img.jpg": "/tindog/static/media/dog-img.55f952d2e1c9a2132e59.jpg",
+    "static/media/mashable.png": "/tindog/static/media/mashable.a2876b348f9b9411144d.png",
+    "static/media/bizinsider.png": "/tindog/static/media/bizinsider.f236711d674a660bec6e.png",
+    "static/media/TechCrunch.png": "/tindog/static/media/TechCrunch.ce0e5471891d6de27c36.png",
+    "index.html": "/tindog/index.html",
+    "main.de896de3.js.map": "/tindog/static/js/main.de896de3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.de896de3.js"
+  ]
+}

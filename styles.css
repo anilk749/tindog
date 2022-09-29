@@ -1,0 +1,149 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "Montserrat-Black";
+    color: #fff;
+    line-height: 1.5;
+}
+h2 {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-family: "Montserrat:700";
+}
+
+h3 {
+    font-family: "Montserrat:400";
+    line-height: 1.5;
+}
+
+h6 {
+    font-family: "Montserrat:400";
+    font-size: 1.2rem;
+}
+
+p {
+    color:#fff;
+}
+
+/* Header section */
+
+.navbar {
+    padding-bottom: 8%;
+    text-align: left;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Ubuntu, sans-serif;
+}
+
+#title {
+    background-color: #E60965;
+    color: #fff;
+    text-align: left;
+}
+
+.titleContainer {
+    padding: 3% 15% 5% 15%;
+}
+
+.titleImg {
+    position: absolute;
+    transform: rotateZ(25deg);
+    width: 62%;
+    right: 30%;
+    z-index: 1;
+}
+
+/* Feature section */
+
+#featureSection {
+    position: relative;
+    background-color: #FBE5E5;
+    z-index: 2;
+    padding: 7% 14%;
+}
+
+#featureSection p {
+    color: grey;
+}
+
+/* Testimonial Section */
+#testimonialSection {
+    background-color: #F94892;
+    padding: 7% 5%;
+    color: #fff;
+}
+
+.testimonialImg {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.pressLogo {
+    width: 20%;
+}
+
+/* Pricing Section */
+
+#pricingSection {
+    padding: 7% 5%;
+    background-color: #FBE5E5;
+}
+
+.card-header {
+    background-color: #FFA1C9;
+}
+#pricingSection h1 {
+    color: #000;
+}
+#pricingSection p {
+    color: grey;
+}
+
+/* Download Section */
+
+#downloadSection {
+    background-color: #E60965;
+    padding: 7% 13%;
+    color: #fff;
+}
+
+
+/* Footer Section */
+#footerSection {
+    background-color: #FBE5E5;
+    padding: 8% 15%;
+}
+
+#footerSection p {
+    color: grey;
+}
+
+#footerSection a {
+    margin: 10px 20px 20px 0px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .titleImg {
+        position: static;
+        transform: rotate(0);
+    }
+}
